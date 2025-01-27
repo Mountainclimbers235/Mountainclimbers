@@ -54,11 +54,21 @@ h3 {
 .logo {
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    color: #418ebe;
+}
+.logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #114667;
+    text-decoration: none;
 }
 
 .logo span {
     color: #6c86e5;
+}
+.logo a:hover {
+
+    color: #418ebe;
 }
 
 .nav-links {
@@ -236,7 +246,6 @@ button:hover {
     background-color: #00509e;
 }
 
-/* Subscription Section */
 section#subscribe {
     background-color: #2b4ec0;
     color: white;
@@ -283,13 +292,11 @@ button[type="submit"]:hover {
     background-color: #203c64;
 }
 
-/* Card Styling */
 section img {
     max-width: 100%;
     border-radius: 8px;
 }
 
-/* Flex Container for Images and Text */
 .flex-container {
     display: flex;
     gap: 20px;
@@ -302,7 +309,6 @@ section img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Explore More Section (Swiper) */
 .container.rows {
     display: flex;
     justify-content: space-between;
@@ -321,7 +327,7 @@ section img {
 }
 
 .card:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); 
 }
 
 .card img {
@@ -369,7 +375,6 @@ iframe {
     border: 0;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .card {
         width: calc(50% - 20px);
